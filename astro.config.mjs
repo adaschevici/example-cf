@@ -1,9 +1,9 @@
 import { defineConfig } from 'astro/config';
 
-import cloudfare from '@astrojs/cloudfare';
+import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  outputs: "server",
-  adapter: cloudfare(),
+  output: "server",
+  adapter: cloudflare()
 });
